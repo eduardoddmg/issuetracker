@@ -1,0 +1,222 @@
+*
+{
+    font-family: sans-serif;
+}
+
+p
+{
+    margin-left: 15px;
+}
+
+body
+{
+    padding-top: 50px;
+}
+/*principal*/
+.content-principal
+{
+    width: 70%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.description
+{
+    width: 90%;
+    margin: auto;
+}
+
+.severity 
+{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 17px;  
+}
+
+select
+{
+    width: 90%;
+    border-radius: 4px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.severity p
+{
+    font-weight: bold;
+}
+
+.assigned-to
+{
+    width: 90%;
+    margin: auto;
+}
+
+h2
+{
+    margin-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 900px;
+}
+.btn-add
+{
+    background-color: rgb(89, 153, 255);
+    border: 1px solid rgb(89, 153, 255);
+    margin-left: 5%;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+.btn-add:hover
+{
+    background-color: rgb(55, 90, 146);
+    border: 1px solid rgb(55, 90, 146);
+    transition: 0.3s;
+}
+
+
+
+.item-resposta
+{
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.issue-id
+{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.open-closed
+{
+    margin-left: 15px;
+    border-radius: 4px;
+    background-color: rgb(89, 153, 255);
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(89, 153, 255);
+    cursor: text;
+    margin-bottom: 20px;
+}
+
+.icon-item
+{
+    margin-left: 15px;
+}
+
+.icon-item i
+{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.icon-item p
+{
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.group-button-resultado
+{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.close-btn
+{
+    background-color: rgb(189, 189, 26);
+    border: 1px solid rgb(189,189,26);
+    font-weight: bold;
+    color: white;
+    margin-right: 6px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.close-btn:hover
+{
+    background-color: rgb(134, 134, 16);
+    border: 1px solid rgb(134, 134, 16);
+    transition: 0.3s;
+}
+
+.delete-btn
+{
+    background-color: rgb(214, 69, 50);
+    border: 1px solid rgb(214, 69, 50);
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.delete-btn:hover
+{
+    background-color: rgb(131, 44, 32);
+    border: 1px solid rgb(131, 44, 32);
+    transition: 0.3s;
+}
+
+/*mobile vertical*/
+@media only screen and (max-width: 900px) and (orientation: portrait)
+{
+    body
+    {
+        padding-bottom: 200px;
+    }
+    select
+    {
+        width: 60%;
+    }
+}
+
+/*mobile horizontal*/
+@media only screen and (max-width: 900px) and (orientation: landscape)
+{
+    body
+    {
+        padding-bottom: 70px;
+    }
+    select
+    {
+        width: 60%;
+    }
+}
+
+/*tablet vertical*/
+@media only screen and (min-width: 700px) and (max-width: 1300px) and (orientation: portrait)
+{
+    body
+    {
+        padding-bottom: 400px;
+    }
+    select
+    {
+        width: 80%;
+    }
+}
+
+/*tablet horizontal*/
+@media only screen and (min-width: 700px) and (max-width: 1300px) and (orientation: landscape)
+{
+    body
+    {
+        padding-bottom: 220px;
+    }
+    select
+    {
+        width: 85%;
+    }
+}
